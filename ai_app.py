@@ -14,7 +14,7 @@ genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # 3. Streamlit 页面设置
 st.set_page_config(page_title="Gemini 助手", page_icon="🤖")
-st.title("🐱 我的 AI 伙伴 (Git版!)")
+st.title("🔴 这是一个红色的测试版")
 st.caption("基于 Google Gemini 2.5 Flash")
 
 # 4. 初始化聊天历史（Streamlit 会话状态）
